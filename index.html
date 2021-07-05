@@ -6,10 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Donut Clicker</title>
   </head>
+  <main id="main">
   <body>
-    <div class="container"></div>
-    <div></div>
-    <script src="./DonutMaker.js"></script>
+    <div id="container1">
+    <div class="container2">
+    <p><span id="donutCount">Number of Donuts:</span></p>
+    <p><span id="donutsPerClick">Donuts per Click: </span> </p>
+    <button id="donutBtn">Make a Donut</button>
+  </div>
+  <div>
+    <p><span id= "autoCount"> Number of Auto Clickers: </span></p>
+    <p><span id="autoClickCost">Cost for Auto Clicker: </span></p>
+    <button id="autoClickBtn" disabled ="disabled" >Buy Auto Clicker</button>
+  </div>
+  <div>
+    <p><span id="multiplierCount">Number of Donut Multipliers: </span></p>
+    <p><span id="multiplierCost">Cost for Multiplier: </span></p>
+    <button id="multiplierBtn">Buy Donut Multiplier</button>
+  </div>
+  <div>
+    <button id="resetBtn">New Game</button>
+  </div>
+</div>
+
+  
+    
     <script src="./donut-maker-app.js"></script>
   </body>
+</main>
 </html>
