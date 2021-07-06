@@ -14,9 +14,20 @@ h1 {
   letter-spacing: -2px;
 }
 
+.directions{
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 8%;
+}
 
+.company-title{
+  background-image: url("images\three-donut-row.jpg");
+  background-size: 75px;
+}
 
 .collapsible {
+    
     background-color:rgb(48, 158, 221);
     color:black;
     cursor: pointer;
@@ -30,7 +41,7 @@ h1 {
   }
 
   .active, .collapsible:hover {
-    background-color:rgb(122, 35, 108)
+    background-color:rgb(200, 31, 172)
   }
 
   .content {
@@ -40,4 +51,44 @@ h1 {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
+
+  .container2{
+    display:grid;
+    grid-template-columns: 30% 30% 40%;
+    padding: 10px; 
+  }
+
+  .container3{
+    display:grid;
+    grid-template-columns: 30% 30% 40%;
+    padding: 10px; 
+  }
+
+  .container4{
+    display:grid;
+    grid-template-columns: 30% 30% 40%;
+    padding: 10px;
+  }
+
+  .bottom-div{
+    display:grid;
+    grid-template-columns: 30% 30% 40%;
+    padding: 10px;
+  }
+
+  footer{
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  button{
+    background-color:rgb(0, 195, 255);
+    border-radius: 10px;
+  }
+
+  
+
+
+
+
 
