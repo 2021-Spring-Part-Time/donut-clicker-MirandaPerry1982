@@ -49,6 +49,7 @@ class DonutMaker {
     
   }
 
+
   getDonutsPerClick (){
     return Math.pow(1.2, this.numDonutMultipliers);
     
@@ -58,11 +59,7 @@ class DonutMaker {
     if(this.numDonuts >= 1){
     location.reload();
 }
-    
-
   }
-
-
 }
 
 export default DonutMaker;
