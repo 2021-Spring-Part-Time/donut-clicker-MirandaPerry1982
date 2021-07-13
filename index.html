@@ -1,13 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donut Clicker</title>
-  </head>
-  <body>
-    <div class="container"></div>
-    <script src="./index.js"></script>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Donut Clicker</title>
+</head>
+
+<div class="all-content">
+<header class ="header">
+  <div class="company-title">
+    <h2>/</h2>
+  </div>
+<h2>Fred the Baker Baking Company</h2>
+  <nav>
+      <button type="button" class="collapsible">Our Story</button>
+      <div class="content">
+        <p>Fred the Baker Baking Co.® was born from a plan of formulating a special recipe. Down in Nebraska we make Donuts with a fun personality that makes
+           people say “WOW” The shop is also known for a ton of your favorite classics such as Apple Fritters, Old Fashioned’s, Glazed Twists, Cinnamon Rolls,
+           Maple Bars and OG Glazed Rings. Everything here is made fresh daily and can be enjoyed no matter what time of the day because we’re
+            open and ready to serve you 24 hours a day.
+        </p>
+    </div>
+
+    <button type="button" class="collapsible">Our Inspiration</button>
+      <div class="content">
+        <p>The original cookie clicker! An inspiration to all, but mostly to us! What's better than cookies? Donuts! 
+          Making virtual cookies wasn't enough, so we made a spinoff for donut fans! Here's a link the original cookie
+          clicker just for you. Now stop complaining to the legal department. Seriously... it's getting silly now.&nbsp
+           <a href="https://orteil.dashnet.org/cookieclicker/">The original cookie clicker</a>
+        </p>
+    </div>
+
+    <button type="button" class="collapsible">Developers Den</button>
+      <div class="content">
+        <p> Hello, my name is Miranda Perry. I am the full stack web developer resposible for this frenzy. I bring creative solutions and 
+          time management skills to the table. I love creating things from the ground up, working in teams and problem solving. I am 
+          committed to using clean code and agile practices. With a passion for learning new technologies, I can't wait to see what the future will bring.&nbsp
+          <a href="https://mirandaperry1982.github.io/">Personal Portfolio</a>&nbsp&nbsp<a href="https://github.com/MirandaPerry1982">Github link</a>
+            </p>
+    </div>
+
+  </nav>
+
+  <div class="header-image-spot">
+  <h1>Fred's Donut Frenzy!!!</h1>
+  <p class="directions">Welcome to Fred's Donut Frenzy! We need donuts! Lots of them. Start clicking to make donuts. After you have ten you can purchase
+    your first donut multiplier. Get a hundred donuts and buy an auto clicker! But don't stop there, prices will go up!
+  </p>
+</div>
+</header>
+
+<main id="main">
+
+  <body class="body">
+    <div id="container1">
+      <div class="container2">
+        <p class="num-donut-para"><span id="donutCount">Number of Donuts:</span></p>
+        <p class="donut-click-para"><span id="donutsPerClick">Donuts per Click: </span> </p>
+        <button id="donutBtn">Make a Donut</button>
+      </div>
+
+      <div class="container3">
+        <p><span id="autoCount"> Number of Auto Clickers: </span></p>
+        <p><span id="autoClickCost">Cost for Auto Clicker: </span></p>
+        <button id="autoClickBtn" disabled="disabled">Buy Auto Clicker</button>
+      </div>
+
+      <div class ="container4">
+        <p><span id="multiplierCount">Number of Donut Multipliers: </span></p>
+        <p><span id="multiplierCost">Cost for Multiplier: </span></p>
+        <button id="multiplierBtn" disabled="disabled">Buy Donut Multiplier</button>
+      </div>
+
+      <div class="bottom-div">
+        <p></p>
+        <p class="new-game">Too many donuts? Play again!&nbsp&nbsp&nbsp------></p>
+        <button id="resetBtn">New Game</button>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div id="carousel">
+    <figure><img src="images\donut-pic.jpg" alt="donut"></figure>
+    <figure><img src="images\donut-pic1.jpg" alt="donuts"></figure>
+    <figure><img src="images\donut-pic2.jpg" alt="donuts"></figure>
+    <figure><img src="images\donut-pic3.jpg" alt="donut"></figure>
+    <figure><img src="images\donut-pic4.jpg" alt="donut"></figure>
+  </div> 
+
+
+  <footer>
+    <p>Fred the baker baking company © 2021 </p>
+  </footer>
+
+
+
+    <script src="./donut-maker-app.js"></script>
   </body>
+</main>
+
 </html>
